@@ -47,7 +47,6 @@ For Optimal results, it is recommended that the TextLabel has the following prop
 	TextScaled == false; 
 	BackgroundTransparency == 1 
 ]]--
-
 function ScaleManager.new(textLabel: TextLabel, baseWidth: number?): ScaledText
 	local existing = ActiveManagers[textLabel]
 	if existing then existing:Destroy() end
